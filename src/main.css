@@ -1,0 +1,151 @@
+
+#banner-image {
+    object-fit: cover;
+    position: absolute;;
+    width: 100%;
+    
+}
+
+body{
+background: white;
+}
+
+.corner-logo{
+    background-color:transparent;
+    position: absolute;
+    width: 250px;
+    
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(1, 1, 61);
+    opacity: 0.8;
+}
+
+#navbar-button{
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    right: 100px;
+    top: -7px;
+	background: darkblue;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 6px;
+	color: white;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px;
+	margin-top: 10px;
+}
+#intro-box {
+    padding: 200px;
+    background-color: dimgray;
+}
+#whoAreWe {
+
+    position: absolute;
+    left: 250px;
+    top: 200px;
+}
+
+#whoAreWeInfo {
+
+    position: absolute;
+    left: 50px;
+    top: 250px;
+    width: 600px;
+}
+
+#whoAreWeImage {
+    position: absolute;
+    left: 750px;
+    top: 200px;
+}
+#createAPost {
+    position: absolute;
+    left: 250px;
+    top: 500px;
+}
+
+#createDiv {
+    position: absolute;
+    left: 15%;
+    bottom:20%;
+    padding-right: 10px;
+    background-color: white;
+    width: auto;
+    height: 250px;
+	border: 1px solid black;
+    border-radius: 10px;
+    line-height: 10px;
+}
+
+input,select{
+    background-color:rgb(236, 236, 236);
+    width: 200px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius:5px;
+
+}
+#description {
+    width:80%;
+    padding: 40px;
+}
+#createButton{
+    position: absolute;
+    left: 82%;
+    top: 70%;
+}
+#readDiv{
+    position:absolute;
+    top: 600px;
+
+
+
+}
+
+.card, p.card-body{
+    line-height: 0%;
+    width: 1500px;
+    padding: 0.7%;
+
+}
+
+.card {
+   margin-left: 15px;
+   margin-bottom: 20px;
+   border: 1px solid black;
+background-color: khaki;
+}
+
+#detailsHeading{
+
+padding-left: 10px;
+margin: 5px;
+font-style: italic;
+opacity: 0.9;
+font-size: 30px;
+color: navy;
+}
+
+.card-title {
+    padding-left: 5px;
+    margin: 5px; 
+}
+
+.updateCard{
+    position: absolute;
+    bottom: 1000px;
+    background: navy;
+}
+
+#updateDiv{
+    position: absolute;
+    top: 2000px;
+}
