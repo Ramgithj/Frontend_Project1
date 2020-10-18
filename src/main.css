@@ -1,0 +1,424 @@
+
+#banner-image {
+    object-fit: cover;
+    position: absolute;;
+    width: 100%;
+    
+}
+
+body{
+background: white;
+}
+
+.corner-logo{
+    background-color:transparent;
+    position: absolute;
+    width: 250px;
+    top: -100px;    
+    
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(1, 1, 61);
+    opacity: 0.8;
+    z-index: 2;
+}
+#navbar-button-manage-listing{
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    right: 200px;
+    top: -7px;
+	background: red;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 6px;
+	color: white;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px;
+	margin-top: 10px;
+}
+#navbar-button{
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    right: 100px;
+    top: -7px;
+	background: darkblue;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 6px;
+	color: white;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px;
+	margin-top: 10px;
+}
+#continue-button{
+   position: fixed;
+   left: 70%;
+   top: 90%;
+   width: 20%;
+   background: darkred;
+    border: 1px solid black;
+	cursor: pointer;
+	border-radius: 6px;
+	color: white;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#saveButton{
+    position: relative;
+    bottom: 10px;
+    left: 350%;
+    background: navy;
+    border: 1px solid black;
+	cursor: pointer;
+	border-radius: 6px;
+	color: white;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#createAPost {
+    position: absolute;
+    left: 250px;
+    top: 40%;
+}
+
+#createAPostButton{
+    background: navy;
+    border: 1px solid black;
+	cursor: pointer;
+	border-radius: 10px;
+	color: white;
+	font-family: 'Exo', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 10px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+
+#main-how-it-works{
+    background-color: rgb(241, 241, 241);
+    height: 1000px; 
+    width: 70%;
+    margin-left: 10%;
+}
+
+#main-how-it-works h1{
+margin-left: 20%;
+padding-top: 2%;
+font-family: 'Exo', sans-serif;
+font-weight: bold;
+border-bottom: 1px solid grey;
+width: fit-content;
+
+}
+
+#sc-create-listing{
+    width: 400px;
+    margin-left: 10%;
+    margin-top: 6%;
+    border: 3px solid black;
+}
+
+#sc-view-listing{
+    width: 400px;
+    margin-left:55%;
+    margin-bottom: 10%;
+    border: 3px solid black;
+}
+#sc-update-listing{
+    width: 400px;
+    margin-left: 10%;
+    margin-top: -5%;
+    border: 3px solid black;
+}
+
+
+#section-one div{
+width: 45%;
+position: relative;
+left: 50%;
+bottom: 150px;
+}
+
+#section-two div{
+    width: 45%;
+    position: relative;
+    left: 5%;
+    bottom: 240px;
+    }
+    
+#section-three div{
+    width: 45%;
+    position: relative;
+    left: 50%;
+    bottom: 150px;
+    }
+    
+#section-one p, #section-two p, #section-three p{
+    font-size: 17px;
+    font-style: italic;
+}
+
+#createFirstListing{
+    width: max-content;
+    height: max-content;
+    position: relative;
+    top: 40%;
+    left: 80%;
+	background: red;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 6px;
+	color: white;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px;
+}
+#deleteListing{
+    position: relative;
+    bottom: 25px;
+    left: 280%;
+    background: maroon;
+    border: 1px solid black;
+	cursor: pointer;
+	border-radius: 6px;
+	color: white;
+	font-family: 'Exo', sans-serif;
+    font-size: 16px;
+	font-weight: 400;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+
+a#deleteListing{
+    width: 200px;
+}
+
+ #whoAreWeInfo{
+    background-color: rgba(1, 8, 1, 0.411);
+}
+
+#intro-box {
+    padding: 200px;
+    background-color: rgb(207, 207, 240);
+}
+#whoAreWe {
+
+    position: absolute;
+    left: 250px;
+    top: 200px;
+}
+
+#whoAreWeInfo {
+
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    width: 600px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+
+#whoAreWeImage {
+    position: absolute;
+    left: 750px;
+    top: 150px;
+    border: 8px solid black;
+    border-radius: 10px;
+}
+
+
+#createDiv {
+    position: absolute;
+    left: 15%;
+    bottom:20%;
+    padding-right: 10px;
+    background-color: white;
+    width: auto;
+    height: 250px;
+	border: 1px solid black;
+    border-radius: 10px;
+    line-height: 10px;
+}
+
+input,select{
+    background-color:rgb(236, 236, 236);
+    width: 200px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius:5px;
+
+}
+#description {
+    width:80%;
+    padding: 40px;
+}
+#createButton{
+    position: absolute;
+    left: 82%;
+    top: 70%;
+}
+#readDiv{
+    position:absolute;
+    top: 90%;
+
+
+
+}
+
+.card, p.card-body{
+    line-height: 0%;
+    width: 1500px;
+    padding: 0.7%;
+
+}
+
+.card {
+   margin-left: 15px;
+   margin-bottom: 20px;
+   border: 1px solid black;
+background-color: khaki;
+}
+
+#detailsHeading{
+
+padding-left: 10px;
+margin: 5px;
+font-style: italic;
+opacity: 0.9;
+font-size: 30px;
+color: navy;
+}
+
+.card-title {
+    padding-left: 5px;
+    margin: 5px; 
+}
+
+/* Styles for the update page */
+#updateHeader {
+    position:fixed ;
+    background-color: white;
+    padding-top: 70px;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    width: 60%;
+    z-index: 1;
+}
+#sideimage{
+    background: transparent;
+    position: fixed;
+    top: 40%;
+    left: 68%;
+    width: 350px;
+}
+
+/* resize images */
+#sideimage img {
+    width: 100%;
+    height: auto;
+}
+#titlebox{
+    width: 50%;
+    background-color: lightblue;
+    border: 2px solid grey;
+    border-radius: 8px;;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 35px;;
+    color: black;
+    padding-left: 10px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+#info-box{
+    position: fixed;
+    top: 15%;
+    left: 65%;
+    box-shadow: 3px 2px 10px #888888;
+    width: 30%;
+    background-color: lightyellow;
+    border: 2px solid grey;
+    border-radius: 8px;;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 15px;;
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+#updateDiv{
+    /* position: absolute;
+    top:0px; */
+    background-color: rgb(248, 248, 248);
+    padding-top: 120px;
+    padding-left: 200px;
+    border-right: 1px solid lightgray;
+    width: 60%;
+    
+
+
+}
+
+.update-card, .update-card-body{
+    line-height: 90%;
+    padding: 0.7%;
+    margin-top: 1;
+
+
+}
+
+
+.update-card-body{
+    color: red;
+    max-width: 150px;
+    height: fit-content;
+    /* max-block-size: 10 px; */
+    position: relative;
+    top: 0px;
+z-index: 0;
+
+}
+.update-card-body-field{
+    width:400px;
+    margin-left: 150px;
+    position: relative;
+    top:-30px;
+    z-index: 0;
+}
+.update-card {
+    margin-left: 15px;
+    margin-top: 10%;
+    border: 1px solid black;
+ background-color: white;
+ border-radius: 10px;;
+ width: 600px;
+ box-shadow: 5px 10px 8px #888888;
+}
