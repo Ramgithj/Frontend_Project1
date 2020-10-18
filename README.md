@@ -20,29 +20,29 @@ These details will be displayed on the same page. A seperate page is available t
 
 Below is an image of the architecture diagram i have used:
 
-! [architecture] (https://drive.google.com/file/d/1gHOgVjkV5A1Veb39vVAfpMjN3SlNZ6ZI/view?usp=sharing)
+![architecture](https://drive.google.com/file/d/1gHOgVjkV5A1Veb39vVAfpMjN3SlNZ6ZI/view?usp=sharing)
 
 # Project planning and sketches
 
 Before starting my project, I created some rough sketches that will give me a plan of what that is I need to be creating. Although the final outcome is not completely what I had in my sketches, it still helped me to create most of it.
 
-![sketches] (https://drive.google.com/file/d/1-LfGLtIA8jnWkK8SqpbOSUy14-j2Waaf/view?usp=sharing)
+![sketches](https://drive.google.com/file/d/1-LfGLtIA8jnWkK8SqpbOSUy14-j2Waaf/view?usp=sharing)
 
 # Jira Board
 
 Below is an image of my Jira board. This was designed at the beginning which was helpful to indicate what needs to be done. Once a certain task has been completed, i could then move them on to the "done" section. This helps you clearly organise what needs to be done for the website.
 
-![Jira board] (https://drive.google.com/file/d/1tNxPWtm37gS2HZ5KbdKznGfgLDv_eoXR/view?usp=sharing)
+![Jira board](https://drive.google.com/file/d/1tNxPWtm37gS2HZ5KbdKznGfgLDv_eoXR/view?usp=sharing)
 
 # Risk Assesment
 
 The risk assessment for this project can be found in full here: https://docs.google.com/spreadsheets/d/1WfKQAjsBfErpQOywRmnZbCe6zw7yFxESFB8WhQd69Es/edit?usp=sharing
 
-[Risk Assesment] (https://drive.google.com/file/d/1s0OcRk7yzXjWzevgUI6Osejn1GqBKP4J/view?usp=sharing)
+[Risk Assesment](https://drive.google.com/file/d/1s0OcRk7yzXjWzevgUI6Osejn1GqBKP4J/view?usp=sharing)
 
 Here's a quick screenshot:
 
-![Risk Assesment] (https://drive.google.com/file/d/1HrqhtBTHbNbsUzEg7960nzCUxa7UVK-f/view?usp=sharing)
+![Risk Assesment](https://drive.google.com/file/d/1HrqhtBTHbNbsUzEg7960nzCUxa7UVK-f/view?usp=sharing)
 
 # Testing
 
@@ -50,21 +50,21 @@ JUnit and Mockito was used to test the codes. These tests were helpful in tellin
 
 Below shows a screenshot of my test coverage:
 
-![Coverage] (https://drive.google.com/file/d/1q7Bi5TKaJdAzk3395Q-viyFXsvQZJo4H/view?usp=sharing)
+![Coverage](https://drive.google.com/file/d/1q7Bi5TKaJdAzk3395Q-viyFXsvQZJo4H/view?usp=sharing)
 
 # Front end
 
 Below shows some screenshots of my front end. There are 3 pages in total and i will briefly desribe what each does below.
 
-![homepage] (https://drive.google.com/file/d/1qjF9wCjEalggQiuDYQaHUv51C81hyRHE/view?usp=sharing)
+![homepage](https://drive.google.com/file/d/1qjF9wCjEalggQiuDYQaHUv51C81hyRHE/view?usp=sharing)
 
 This is my homepage which describe what the website does and how to use the website with screenshots. This will help people create a listing without any confusions.
 
-![create a lsiting] (https://drive.google.com/file/d/1xipAvdm0fca1esiYBVXf4VpoeD7Wi_qR/view?usp=sharing)
+![create a lsiting](https://drive.google.com/file/d/1xipAvdm0fca1esiYBVXf4VpoeD7Wi_qR/view?usp=sharing)
 
 This is where a user can go to create a listing of their car. As you can see, there are input fields which takes in details of the car. Once the "create" button is pressed, the listing will automatically appear at the bottom of the page.
 
-![manage listing] (https://drive.google.com/file/d/1t-o_LKHXX6NUzXSVdCWIWvVH_dDUBLCJ/view?usp=sharing)
+![manage listing](https://drive.google.com/file/d/1t-o_LKHXX6NUzXSVdCWIWvVH_dDUBLCJ/view?usp=sharing)
 
 Here, users can access their listings and edit or delete them. Once any changes has been made, they can click the save button and press continue.
 
