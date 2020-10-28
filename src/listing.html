@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <!--<meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GETTING STARTED WITH BRACKETS</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="main.css">   
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+    </head>
+    <header>
+
+
+        
+    </header>
+<body>
+    <div id="navbar">
+        <img class="corner-logo" src="logo.png">
+        <a href="update.html"><button type="button" id="navbar-button-manage-listing">Manage your listings</button></a>
+        <a href="index.html"><button type="button" id="navbar-button">Home</button></a>
+    </div>
+            <img id="banner-image" src="lost-car-listing.png">
+
+
+    <div id="createDiv">
+        <h1 id="detailsHeading">Create a listing</h1>
+
+        <div>
+            
+            <form class="ml-3" id="createForm">
+            <input type="text" id="make" placeholder="Enter the make" required>  &nbsp 
+            <input type="text" id="model" placeholder="Enter the model" required>&nbsp  
+            <input type="text" id="year" placeholder="Enter the year" required>  &nbsp  
+            <input type="text" id="colour" placeholder="Enter the colour" required>&nbsp 
+            <input type="text" id="engine_size" placeholder="Enter your engine size" required><br/><br/>
+            <select name="transmission" id="gearbox" required>
+                <option value="manual">Manual</option>
+                <option value="Automatic">Automatic</option>
+            </select>&nbsp
+            <input type="text" id="contact_number" placeholder="Enter your phone number" required>&nbsp
+            <input type="text" id="email" placeholder="Enter your email" required>&nbsp
+            <input type="text" id="post_code_last_seen" placeholder="Enter the post code the car was last seen" required><br/><br/>
+            <input type="text" id="description" placeholder="Enter a description of the car" required><br/>
+            <button class="btn btn-primary" id ="createButton" type="submit">Create Listing</button>
+            </form>
+        </div>
+    </div>
+    <div id="readDiv">
+    </div>
+
+    <div id="updateDiv"></div>
+    <script src="index.js"></script>
+    <!-- <script src="update.js"></script> -->
+
+    <!-- class="card-deck m-5" -->
+    </body>
+    </html>
